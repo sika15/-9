@@ -1,0 +1,213 @@
+time=2026-06-20T16:45:17.407+08:00 level=INFO msg="configuration loaded" data_dir=C:\Users\蔡煜祺\Downloads\新建文件夹\data log_dir=C:\Users\蔡煜祺\Downloads\新建文件夹\log dry_run=false dns_mode=httpdns dns_ip="" httpdns_endpoint=resolve dns_probe_count=5 dns_probe_timeout_ms=2000 httpdns_switch_on_http_error=false httpdns_pool_refresh_interval_ms=10000 httpdns_pool_refresh_max_no_new=10 mode=web web_listen_host=127.0.0.1 web_listen_port=18080 use_ntp=false ntp_servers="[time1.cloud.tencent.com time2.cloud.tencent.com time3.cloud.tencent.com time4.cloud.tencent.com time5.cloud.tencent.com]" ntp_timeout_ms=1500 timed_request_offset_ms=0
+time=2026-06-20T16:45:19.643+08:00 level=INFO msg="Click Detection model (YOLO) loaded" component=webapp component=beegest path=C:\Users\蔡煜祺\Downloads\新建文件夹\model\yolov11n_captcha.onnx
+time=2026-06-20T16:45:19.987+08:00 level=INFO msg="Click Feature model (Siamese) loaded" component=webapp component=beegest path=C:\Users\蔡煜祺\Downloads\新建文件夹\model\siamese.onnx
+time=2026-06-20T16:45:19.988+08:00 level=INFO msg="beegest local solver enabled for web runtime" component=webapp
+time=2026-06-20T16:45:20.020+08:00 level=INFO msg="web server started" component=webapp addr=127.0.0.1:18080 base_url=127.0.0.1:18080
+time=2026-06-20T16:45:40.824+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T16:45:40.825+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T16:45:40.829+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T16:45:40.829+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:45:40.907+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=52
+time=2026-06-20T16:45:41.194+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::29 ttl=52 candidates=48 reachable=48
+time=2026-06-20T16:45:41.283+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T16:45:41.500+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T16:45:41.704+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T16:46:57.354+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T16:46:57.354+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:46:57.441+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=34
+time=2026-06-20T16:46:58.493+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=passport.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::31 ttl=34 candidates=48 reachable=48
+time=2026-06-20T16:46:58.683+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T16:52:35.781+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T16:52:35.781+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T16:52:35.781+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T16:52:35.781+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:52:35.847+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T16:52:35.847+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T16:52:35.847+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T16:52:35.847+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:52:35.861+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=36
+time=2026-06-20T16:52:35.911+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=8
+time=2026-06-20T16:52:37.066+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.142 ttl=36 candidates=48 reachable=48
+time=2026-06-20T16:52:37.110+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.28 ttl=8 candidates=48 reachable=48
+time=2026-06-20T16:52:37.155+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T16:52:37.186+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T16:52:37.338+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T16:52:37.357+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T16:52:37.517+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T16:52:37.554+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T16:54:44.407+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T16:54:44.407+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T16:54:44.407+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T16:54:44.407+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:54:44.489+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=50
+time=2026-06-20T16:54:44.790+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.29 ttl=50 candidates=48 reachable=48
+time=2026-06-20T16:54:44.872+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T16:54:45.069+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T16:54:45.234+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T16:55:44.992+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T16:55:44.992+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T16:55:44.994+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T16:55:44.994+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:55:45.064+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=13
+time=2026-06-20T16:55:45.346+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:978:90d:1000::77 ttl=13 candidates=48 reachable=48
+time=2026-06-20T16:55:45.487+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T16:57:30.658+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T16:57:30.658+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T16:57:30.739+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=39
+time=2026-06-20T16:57:31.039+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.138 ttl=39 candidates=48 reachable=48
+time=2026-06-20T16:57:31.184+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:00:39.920+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:00:39.920+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:00:39.920+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T17:00:39.920+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:00:40.029+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=9
+time=2026-06-20T17:00:40.342+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.27 ttl=9 candidates=48 reachable=48
+time=2026-06-20T17:00:40.435+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T17:00:40.629+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T17:00:40.867+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:01:10.202+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=app.bilibili.com port=443
+time=2026-06-20T17:01:10.202+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:01:10.279+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=35
+time=2026-06-20T17:01:10.592+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=app.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::27 ttl=35 candidates=48 reachable=48
+time=2026-06-20T17:01:19.755+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:01:19.755+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:01:19.755+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:01:19.755+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:01:19.822+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=42
+time=2026-06-20T17:01:20.136+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.29 ttl=42 candidates=48 reachable=48
+time=2026-06-20T17:01:35.521+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:05:13.131+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:05:13.131+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:05:13.205+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=11
+time=2026-06-20T17:05:13.500+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.27 ttl=11 candidates=48 reachable=48
+time=2026-06-20T17:05:13.621+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:07:32.536+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:07:32.536+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:07:32.653+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=37
+time=2026-06-20T17:07:32.955+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.27 ttl=37 candidates=48 reachable=48
+time=2026-06-20T17:07:33.058+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:09:04.167+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:09:04.167+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:09:04.167+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T17:09:04.167+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:09:04.278+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=44
+time=2026-06-20T17:09:04.588+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::28 ttl=44 candidates=48 reachable=48
+time=2026-06-20T17:09:04.672+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T17:09:04.879+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T17:09:05.077+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:11:11.443+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:11:11.443+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:11:11.569+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=52
+time=2026-06-20T17:11:11.846+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=passport.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.48 ttl=52 candidates=48 reachable=48
+time=2026-06-20T17:15:45.001+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:15:45.001+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:15:45.125+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=9
+time=2026-06-20T17:15:45.454+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=passport.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.142 ttl=9 candidates=48 reachable=48
+time=2026-06-20T17:17:10.521+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T17:17:10.521+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:17:10.646+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=48
+time=2026-06-20T17:17:10.937+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::31 ttl=48 candidates=48 reachable=48
+time=2026-06-20T17:17:11.018+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T17:17:11.201+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T17:17:11.401+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:17:12.771+08:00 level=WARN msg="First attempt failed, entering retry loop" component=webapp component=beegest error="verify failed, response: {\"success\": 0, \"message\": \"forbidden\"}"
+time=2026-06-20T17:17:14.439+08:00 level=WARN msg="Retry verify failed" component=webapp component=beegest try=1 error="verify failed, response: {\"status\": \"error\", \"error\": \"used captcha\", \"user_error\": \"\\u7f51\\u7edc\\u4e0d\\u7ed9\\u529b\", \"error_code\": \"error_11\"}"
+time=2026-06-20T17:17:15.230+08:00 level=WARN msg="Retry verify failed" component=webapp component=beegest try=2 error="verify failed, response: {\"status\": \"error\", \"error\": \"used captcha\", \"user_error\": \"\\u7f51\\u7edc\\u4e0d\\u7ed9\\u529b\", \"error_code\": \"error_11\"}"
+time=2026-06-20T17:17:16.917+08:00 level=WARN msg="Retry verify failed" component=webapp component=beegest try=3 error="verify failed, response: {\"status\": \"error\", \"error\": \"used captcha\", \"user_error\": \"\\u7f51\\u7edc\\u4e0d\\u7ed9\\u529b\", \"error_code\": \"error_11\"}"
+time=2026-06-20T17:17:18.677+08:00 level=WARN msg="Retry verify failed" component=webapp component=beegest try=4 error="verify failed, response: {\"status\": \"error\", \"error\": \"used captcha\", \"user_error\": \"\\u7f51\\u7edc\\u4e0d\\u7ed9\\u529b\", \"error_code\": \"error_11\"}"
+time=2026-06-20T17:17:18.770+08:00 level=WARN msg="Retry verify failed" component=webapp component=beegest try=5 error="download image failed with status: 403"
+time=2026-06-20T17:19:45.966+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:19:45.966+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:19:46.100+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=18
+time=2026-06-20T17:19:46.391+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.141 ttl=18 candidates=48 reachable=48
+time=2026-06-20T17:19:53.045+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:19:53.045+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:19:53.045+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T17:19:53.045+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:19:53.158+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=46
+time=2026-06-20T17:19:53.456+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.27 ttl=46 candidates=48 reachable=48
+time=2026-06-20T17:19:53.548+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T17:19:53.732+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T17:19:53.930+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:29:14.188+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:29:14.188+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:29:14.311+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=47
+time=2026-06-20T17:29:16.369+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.140 ttl=47 candidates=48 reachable=48
+time=2026-06-20T17:29:16.479+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:29:26.342+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:29:26.342+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:29:26.454+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=16
+time=2026-06-20T17:29:26.740+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=61.147.236.101 ttl=16 candidates=48 reachable=48
+time=2026-06-20T17:29:36.366+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:41:50.607+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:41:50.607+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:41:50.607+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=www.bilibili.com port=443
+time=2026-06-20T17:41:50.608+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:41:50.751+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=49
+time=2026-06-20T17:41:51.058+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=www.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.172 ttl=49 candidates=48 reachable=48
+time=2026-06-20T17:41:51.147+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=m.bilibili.com port=443
+time=2026-06-20T17:41:51.334+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=api.bilibili.com port=443
+time=2026-06-20T17:41:51.555+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=passport.bilibili.com port=443
+time=2026-06-20T17:43:18.884+08:00 level=INFO msg="dns resolver configured" component=webapp component=dns mode=httpdns ip="" httpdns_endpoint=resolve probe_count=5 probe_timeout=2s switch_on_http_error=false pool_refresh_interval=10s pool_refresh_max_no_new=10
+time=2026-06-20T17:43:18.884+08:00 level=INFO msg="dns mode disables environment proxy" component=webapp component=dns mode=httpdns
+time=2026-06-20T17:43:18.885+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:43:18.885+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:43:19.004+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=39
+time=2026-06-20T17:43:19.287+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.48 ttl=39 candidates=48 reachable=48
+time=2026-06-20T17:43:36.602+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:44:11.467+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:44:11.467+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:44:11.596+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=52
+time=2026-06-20T17:44:11.892+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.30 ttl=52 candidates=48 reachable=48
+time=2026-06-20T17:44:11.961+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:45:10.013+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:45:10.013+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:45:10.159+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=29
+time=2026-06-20T17:45:10.448+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::27 ttl=29 candidates=48 reachable=48
+time=2026-06-20T17:45:10.525+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T17:51:00.397+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T17:51:00.397+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T17:51:00.503+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=47
+time=2026-06-20T17:51:00.779+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::28 ttl=47 candidates=48 reachable=48
+time=2026-06-20T17:51:00.859+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:02:25.860+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T18:02:25.860+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:02:25.945+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=49
+time=2026-06-20T18:02:26.251+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::29 ttl=49 candidates=48 reachable=48
+time=2026-06-20T18:03:46.331+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:03:46.331+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:03:46.421+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=37
+time=2026-06-20T18:03:46.727+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::27 ttl=37 candidates=48 reachable=48
+time=2026-06-20T18:06:01.625+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:06:01.625+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:06:01.716+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=35
+time=2026-06-20T18:06:02.033+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=61.147.236.103 ttl=35 candidates=48 reachable=48
+time=2026-06-20T18:07:33.968+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:07:33.968+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:07:34.046+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=48
+time=2026-06-20T18:07:34.321+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::27 ttl=48 candidates=48 reachable=48
+time=2026-06-20T18:08:13.081+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:08:13.081+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:08:13.161+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=33
+time=2026-06-20T18:08:13.458+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.139 ttl=33 candidates=48 reachable=48
+time=2026-06-20T18:12:28.697+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:12:28.697+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:12:28.793+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=18
+time=2026-06-20T18:12:29.079+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=114.230.222.139 ttl=18 candidates=48 reachable=48
+time=2026-06-20T18:13:45.715+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:13:45.715+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:13:45.803+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=51
+time=2026-06-20T18:13:46.108+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::29 ttl=51 candidates=48 reachable=48
+time=2026-06-20T18:15:03.630+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T18:15:03.630+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:15:03.717+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=52
+time=2026-06-20T18:15:04.025+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=240e:f7:e01f:f1::31 ttl=52 candidates=48 reachable=48
+time=2026-06-20T18:17:06.957+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
+time=2026-06-20T18:17:06.957+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:17:07.047+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=57
+time=2026-06-20T18:17:07.353+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=show.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.29 ttl=57 candidates=48 reachable=48
+time=2026-06-20T18:17:09.121+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=mall.bilibili.com port=443
+time=2026-06-20T18:17:09.121+08:00 level=INFO msg="httpdns resolve request" component=webapp component=dns host=app.bilibili.com endpoint="GET resolve"
+time=2026-06-20T18:17:09.197+08:00 level=INFO msg="httpdns resolve response" component=webapp component=dns host=app.bilibili.com ip_count=48 ttl=33
+time=2026-06-20T18:17:09.502+08:00 level=INFO msg="httpdns selected fastest ip" component=webapp component=dns host=mall.bilibili.com query_host=app.bilibili.com cache_key=*.bilibili.com:443 port=443 ip=183.131.147.27 ttl=33 candidates=48 reachable=48
+time=2026-06-20T18:17:09.573+08:00 level=INFO msg="dns resolving bilibili host" component=webapp component=dns mode=httpdns host=show.bilibili.com port=443
